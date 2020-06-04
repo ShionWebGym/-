@@ -64,7 +64,7 @@ class Roulette extends Component{
         return (
           <div>
           <p className="text1">今日のSSは</p>
-          <p id="result"></p>
+          <p id="result">エオルゼア</p>
           <button id="btn" onClick={roulette}>場所を決める！</button>
           </div>
         );
