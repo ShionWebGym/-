@@ -54,7 +54,8 @@ const loca = [
 function roulette(){
     const locaNo = Math.floor( Math.random() * loca.length);
     let result = document.getElementById("result");
-    result.innerText = loca[locaNo];
+    let kekka = loca[locaNo];
+    result.innerText = kekka;
     //console.log(loca[locaNo]);
 }
 
@@ -66,6 +67,9 @@ class Roulette extends Component{
           <p className="text1">今日のSSは</p>
           <p id="result">エオルゼア</p>
           <button id="btn" onClick={roulette}>場所を決める！</button>
+          <br/>
+          <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" 
+            data-text ="ロケルレを使ってSSを撮りました！" data-hashtags="ロケルレ,FF14SS,FF14風景" data-url="https://locationroulette.site" data-lang="ja">ツイートする！</a>
           </div>
         );
       }
