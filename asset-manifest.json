@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/LocationRoulette/static/css/main.324f56fa.chunk.css",
+    "main.css": "/LocationRoulette/static/css/main.a400d7b0.chunk.css",
     "main.js": "/LocationRoulette/static/js/main.6bd3a3d6.chunk.js",
     "main.js.map": "/LocationRoulette/static/js/main.6bd3a3d6.chunk.js.map",
     "runtime-main.js": "/LocationRoulette/static/js/runtime-main.a96e218d.js",
@@ -8,15 +8,15 @@
     "static/js/2.b55f2e21.chunk.js": "/LocationRoulette/static/js/2.b55f2e21.chunk.js",
     "static/js/2.b55f2e21.chunk.js.map": "/LocationRoulette/static/js/2.b55f2e21.chunk.js.map",
     "index.html": "/LocationRoulette/index.html",
-    "precache-manifest.811ef09e67e635baf0fa459f94f0312e.js": "/LocationRoulette/precache-manifest.811ef09e67e635baf0fa459f94f0312e.js",
+    "precache-manifest.afd6da96494837d6589b3578e6d5c709.js": "/LocationRoulette/precache-manifest.afd6da96494837d6589b3578e6d5c709.js",
     "service-worker.js": "/LocationRoulette/service-worker.js",
-    "static/css/main.324f56fa.chunk.css.map": "/LocationRoulette/static/css/main.324f56fa.chunk.css.map",
+    "static/css/main.a400d7b0.chunk.css.map": "/LocationRoulette/static/css/main.a400d7b0.chunk.css.map",
     "static/js/2.b55f2e21.chunk.js.LICENSE.txt": "/LocationRoulette/static/js/2.b55f2e21.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a96e218d.js",
     "static/js/2.b55f2e21.chunk.js",
-    "static/css/main.324f56fa.chunk.css",
+    "static/css/main.a400d7b0.chunk.css",
     "static/js/main.6bd3a3d6.chunk.js"
   ]
 }
