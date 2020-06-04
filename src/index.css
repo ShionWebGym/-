@@ -1,3 +1,6 @@
+html {
+  touch-action: manipulation;
+}
   .text1{
     font-size: 1.5rem;
   }
