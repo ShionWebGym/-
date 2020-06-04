@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/LocationRoulette/static/css/main.e0c48662.chunk.css",
-    "main.js": "/LocationRoulette/static/js/main.afc410d1.chunk.js",
-    "main.js.map": "/LocationRoulette/static/js/main.afc410d1.chunk.js.map",
+    "main.css": "/LocationRoulette/static/css/main.324f56fa.chunk.css",
+    "main.js": "/LocationRoulette/static/js/main.6bd3a3d6.chunk.js",
+    "main.js.map": "/LocationRoulette/static/js/main.6bd3a3d6.chunk.js.map",
     "runtime-main.js": "/LocationRoulette/static/js/runtime-main.a96e218d.js",
     "runtime-main.js.map": "/LocationRoulette/static/js/runtime-main.a96e218d.js.map",
     "static/js/2.b55f2e21.chunk.js": "/LocationRoulette/static/js/2.b55f2e21.chunk.js",
     "static/js/2.b55f2e21.chunk.js.map": "/LocationRoulette/static/js/2.b55f2e21.chunk.js.map",
     "index.html": "/LocationRoulette/index.html",
-    "precache-manifest.7c7c8fb9907b187dd81f7b7cb25ef590.js": "/LocationRoulette/precache-manifest.7c7c8fb9907b187dd81f7b7cb25ef590.js",
+    "precache-manifest.811ef09e67e635baf0fa459f94f0312e.js": "/LocationRoulette/precache-manifest.811ef09e67e635baf0fa459f94f0312e.js",
     "service-worker.js": "/LocationRoulette/service-worker.js",
-    "static/css/main.e0c48662.chunk.css.map": "/LocationRoulette/static/css/main.e0c48662.chunk.css.map",
+    "static/css/main.324f56fa.chunk.css.map": "/LocationRoulette/static/css/main.324f56fa.chunk.css.map",
     "static/js/2.b55f2e21.chunk.js.LICENSE.txt": "/LocationRoulette/static/js/2.b55f2e21.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a96e218d.js",
     "static/js/2.b55f2e21.chunk.js",
-    "static/css/main.e0c48662.chunk.css",
-    "static/js/main.afc410d1.chunk.js"
+    "static/css/main.324f56fa.chunk.css",
+    "static/js/main.6bd3a3d6.chunk.js"
   ]
 }

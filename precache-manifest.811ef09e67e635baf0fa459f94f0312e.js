@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d5d9fff17340b62c8a477201f6259d30",
+    "revision": "b95a6cc8610a3e791067a653128679c7",
     "url": "/LocationRoulette/index.html"
   },
   {
-    "revision": "1916d47ecfbd8fba61ce",
-    "url": "/LocationRoulette/static/css/main.e0c48662.chunk.css"
+    "revision": "2db40e9da279cb86725e",
+    "url": "/LocationRoulette/static/css/main.324f56fa.chunk.css"
   },
   {
     "revision": "58c6c9cff291e61313b4",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LocationRoulette/static/js/2.b55f2e21.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1916d47ecfbd8fba61ce",
-    "url": "/LocationRoulette/static/js/main.afc410d1.chunk.js"
+    "revision": "2db40e9da279cb86725e",
+    "url": "/LocationRoulette/static/js/main.6bd3a3d6.chunk.js"
   },
   {
     "revision": "211d5603aaf6aa09347c",
