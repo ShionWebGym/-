@@ -69,7 +69,7 @@ class Roulette extends Component{
           <button id="btn" onClick={roulette}>場所を決める！</button>
           <br/>
           <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" 
-            data-text ="ロケルレを使ってSSを撮りました！" data-hashtags="ロケルレ,FF14SS,FF14風景" data-url="https://locationroulette.site" data-lang="ja">ツイートする！</a>
+            data-text ={`ロケルレを使って${kekka}でSSを撮りました！`} data-hashtags="ロケルレ,FF14SS,FF14風景" data-url="https://locationroulette.site" data-lang="ja">ツイートする！</a>
           </div>
         );
       }
