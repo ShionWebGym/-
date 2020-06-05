@@ -51,25 +51,40 @@ const loca = [
 "クリスタリウム",
 ]
 
-function roulette(){
-    const locaNo = Math.floor( Math.random() * loca.length);
-    let result = document.getElementById("result");
-    let kekka = loca[locaNo];
-    result.innerText = kekka;
-    //console.log(loca[locaNo]);
-}
+//function roulette(){
+//    const locaNo = Math.floor( Math.random() * loca.length);
+//    let result = document.getElementById("result");
+//    let kekka = loca[locaNo];
+//    result.innerText = kekka;
+//    //console.log(loca[locaNo]);
+//}
 
 
 class Roulette extends Component{
+  constructor(props){
+    super(props);
+    this.roulette = this.roulette.bind(this)
+    this.state = ({kekka:"エオルゼア"})
+  }
+
+  roulette(){
+    const locaNo = Math.floor( Math.random() * loca.length);
+    //let result = document.getElementById("result");
+    let kekka = loca[locaNo];
+    this.setState({kekka:kekka});
+   // result.innerText = kekka;
+  
+  }
+  
       render() {
         return (
           <div>
           <p className="text1">今日のSSは</p>
-          <p id="result">エオルゼア</p>
-          <button id="btn" onClick={roulette}>場所を決める！</button>
+          <p id="result">{this.state.kekka}</p>
+          <button id="btn" onClick={this.roulette}>場所を決める！</button>
           <br/>
-          <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" 
-            data-text ={`ロケルレを使って${kekka}でSSを撮りました！`} data-hashtags="ロケルレ,FF14SS,FF14風景" data-url="https://locationroulette.site" data-lang="ja">ツイートする！</a>
+          <a href="https://twitter.com/share" className="twitter-share-button" data-show-count="false" 
+            data-text ={`ロケルレを使って${this.state.kekka}でSSを撮りました！`} data-hashtags="ロケルレ,FF14SS,FF14風景" data-url="https://locationroulette.site" data-lang="ja">ツイートする！</a>
           </div>
         );
       }
