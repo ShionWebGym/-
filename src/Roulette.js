@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './index.css';
+import { Share } from 'react-twitter-widgets';
 
 const loca = [
 "外地ラノシア",
@@ -83,8 +84,14 @@ class Roulette extends Component{
           <p id="result">{this.state.kekka}</p>
           <button id="btn" onClick={this.roulette}>場所を決める！</button>
           <br/>
-          <a href="https://twitter.com/share" className="twitter-share-button" data-show-count="false" 
-            data-text ={`ロケルレを使って${this.state.kekka}でSSを撮りました！`} data-hashtags="ロケルレ,FF14SS,FF14風景" data-url="https://locationroulette.site" data-lang="ja">ツイートする！</a>
+          <Share
+            url="https://locationroulette.site/" 
+            options= {{ lang:"ja",
+                        text:`ロケルレを使って${this.state.kekka}でSSを撮りました！`,
+                        hashtags:"ロケルレ,FF14,FF14風景"}}
+          />
+          {/* <a href="https://twitter.com/share" className="twitter-share-button" data-show-count="false" 
+            data-text ={`ロケルレを使って${this.state.kekka}でSSを撮りました！`} data-hashtags="ロケルレ,FF14SS,FF14風景" data-url="https://locationroulette.site" data-lang="ja">ツイートする！</a> */}
           </div>
         );
       }
