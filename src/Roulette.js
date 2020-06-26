@@ -74,7 +74,6 @@ class Roulette extends Component{
     let kekka = loca[locaNo];
     this.setState({kekka:kekka});
    // result.innerText = kekka;
-  
   }
   
       render() {
@@ -90,8 +89,6 @@ class Roulette extends Component{
                         text:`ロケルレを使って${this.state.kekka}でSSを撮りました！`,
                         hashtags:"ロケルレ,FF14,FF14風景"}}
           />
-          {/* <a href="https://twitter.com/share" className="twitter-share-button" data-show-count="false" 
-            data-text ={`ロケルレを使って${this.state.kekka}でSSを撮りました！`} data-hashtags="ロケルレ,FF14SS,FF14風景" data-url="https://locationroulette.site" data-lang="ja">ツイートする！</a> */}
           </div>
         );
       }
