@@ -19,10 +19,10 @@ html {
     font-size: 16px;
     background: linear-gradient(271deg, #96ecff, #000000);
     background-size: 400% 400%;
-
     -webkit-animation: AnimationName 38s ease infinite;
     -moz-animation: AnimationName 38s ease infinite;
     animation: AnimationName 38s ease infinite;
+    height: 100%;
 }
 
 @-webkit-keyframes AnimationName {
