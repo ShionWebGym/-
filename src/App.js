@@ -19,7 +19,7 @@ function App() {
       <main className="main">
       <Roulette/>
       </main>
-      <footer className="footer"><p><small>Copyright (C) SQUARE ENIX CO., LTD. All Rights Reserved.</small></p></footer>
+      <footer className="footer"><p className="copy"><small>Copyright (C) SQUARE ENIX CO., LTD. All Rights Reserved.</small></p></footer>
     </div>
   );
 }
