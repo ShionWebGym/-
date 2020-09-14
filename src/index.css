@@ -6,7 +6,7 @@ html {
   }
   #result{
     margin-top: 20px;
-    font-size: 2rem;
+    font-size: 2.3rem;
     color:#ffffff;
     text-shadow:#ff7209 1px 1px 15px,
                 #ff7209 1px 1px 10px,
@@ -49,6 +49,7 @@ html {
     font-weight: bold;
     cursor: pointer;
     outline: none;
+    border-radius: 20px;
     appearance: none;
     margin-bottom: 50px;
 }

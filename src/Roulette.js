@@ -86,7 +86,7 @@ class Roulette extends Component{
           <Share
             url="https://locationroulette.site/" 
             options= {{ lang:"ja",
-                        text:`ロケルレを使って${this.state.kekka}でSSを撮りました！`,
+                        text:`FFXIV snaps at ${this.state.kekka} byロケルレ`,
                         hashtags:"ロケルレ,FF14,FF14風景"}}
           />
           </div>
